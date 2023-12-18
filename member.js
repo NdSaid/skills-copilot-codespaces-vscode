@@ -1,11 +1,7 @@
-function skillsmember() {
-    var skills = document.getElementById("skills");
-    var member = document.getElementById("member");
-    if (skills.style.display === "none") {
-        skills.style.display = "block";
-        member.style.display = "none";
-    } else {
-        skills.style.display = "none";
-        member.style.display = "block";
-    }
+function skills() {
+  return {
+    name: "skills",
+    type: "array",
+    of: [{ type: "string" }],
+  };
 }
